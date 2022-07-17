@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nskills-lab/restaurant-page.git"
+  },
+  "author": "Nina Umar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nskills-lab/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/nskills-lab/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

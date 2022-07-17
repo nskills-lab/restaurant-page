@@ -1,0 +1,11 @@
+*,
+*::after {
+    box-sizing: border-box;
+}
+
+#restaurant-image{
+    background-image: url("restaurant-interior.jpg");
+    background-size: cover;
+    width: 95vw;
+    height: 90vh;
+}
