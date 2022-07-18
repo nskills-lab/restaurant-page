@@ -68,6 +68,7 @@ div[data-content]{
     animation-delay: 2s;
     animation-direction: alternate;
     position: relative;
+    animation-iteration-count: infinite;
 }
 
 div[data-about]{
