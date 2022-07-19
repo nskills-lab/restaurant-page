@@ -39,6 +39,7 @@ ul[data-nav]{
 ul > li {
     list-style: none;
     cursor: pointer;
+
 }
 
 div[data-title]{
@@ -136,4 +137,5 @@ div[data-footer]>div::first-line{
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
+    color: #c2410c;
 }
