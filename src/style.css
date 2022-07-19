@@ -43,23 +43,31 @@ ul > li {
 
 div[data-title]{
     margin-left: 30px;
-}
-
-div[data-title] span{
-    font-size: 2.8rem;
-    color: #84cc16;
-    margin-bottom: 0;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div[data-title] p{
+    font-size: 2.8rem;
+    color: #84cc16;
+    margin-bottom: 0;
+}
+
+div[data-title] span{
     font-size: 1rem;
     margin: 0;
     text-align: center;
 
 }
+img[data-restaurant-icon]{
+    width: 35px;
+    height: 40px;
+ 
+}
+
 div[data-content]{
-    background-image: url("restaurant-interior.jpg");
+    background-image: url("images/restaurant-interior.jpg");
     background-size: cover;
     width: 100%;
     height: 75vh;
@@ -68,7 +76,7 @@ div[data-content]{
     animation-delay: 2s;
     animation-direction: alternate;
     position: relative;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
 }
 
 div[data-about]{
@@ -88,24 +96,24 @@ div[data-about]{
 
 @keyframes background-image-change {
     20%{
-        background-image: url("beverages.jpg");
+        background-image: url("images/beverages.jpg");
     }
 
     40%{
-        background-image: url("beverages.jpg");
+        background-image: url("images/beverages.jpg");
     }
 
     60%{
-        background-image: url("food.jpg");
+        background-image: url("images/food.jpg");
     
     }
 
     80%{
-        background-image: url("food.jpg");
+        background-image: url("images/food.jpg");
     }
 
     100%{
-        background-image: url("restaurant-interior.jpg");
+        background-image: url("images/restaurant-interior.jpg");
   
     }
     
