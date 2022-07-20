@@ -1,11 +1,11 @@
 import { addAttribute } from "../utils/helpers.js";
-const MAIN_TEXT =
-  "Rush Street is a contemporary-American cafe & bar located in Denver's bustling Highland neighborhodd.  Since our opening in 2017, it has earned James Reeds's Outstanding Restaurant award 3 years in a row.  Our exceptional menu and vibrant ambience makes Rush Street a must place to visit whenenver you are nearby!";
+import Data from "../data/data.json";
+const MAIN_TEXT = Data["main page"]["desc"];
 
-const ADDRESS = "661 W Rush St, Denver, CO 80202";
-const DAYS = "Mon-Sun";
-const HOURS = "3pm-11pm";
-const PHONE = "ph: (712) 000 - 000";
+const ADDRESS = Data["main page"]["address"];
+const DAYS = Data["main page"]["days"];
+const HOURS = Data["main page"]["hours"];
+const PHONE = Data["main page"]["phone"];
 
 export function loadMainPage() {
   const dataTop = document.createElement("div");
