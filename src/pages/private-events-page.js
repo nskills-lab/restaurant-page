@@ -3,10 +3,10 @@ import Data from "../data/data.json";
 
 export function loadEventsPage() {
   const dataContent = document.querySelector("div[data-content]");
-  dataContent.classList.remove("main-page");
-  dataContent.removeChild(dataContent.firstElementChild);
-  console.log(dataContent.firstElementChild);
-  dataContent.classList.add("private-events-page");
+  if (dataContent.hasChildNodes()) {
+    dataContent.removeChild(dataContent.firstElementChild);
+  }
+  dataContent.className = "private-events-page";
 
   const dataFormContainer = document.createElement("div");
   addAttribute(dataFormContainer, "data-form-container");
@@ -78,14 +78,14 @@ function createForm() {
   message.setAttribute("name", "message");
   message.setAttribute("placeholder", "Message");
   message.setAttribute("cols", "80");
-  message.setAttribute("rows", "10");
+  message.setAttribute("rows", "6");
   form.appendChild(messageLabel);
   form.appendChild(message);
 
   // Date input
   const dateLabel = document.createElement("label");
   dateLabel.setAttribute("for", "date");
-  dateLabel.innerText = "Select Date";
+  dateLabel.innerText = "Event Date";
   const date = document.createElement("input");
   date.setAttribute("id", "date");
   date.setAttribute("type", "date");

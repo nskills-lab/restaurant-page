@@ -19,6 +19,7 @@
 body{
     margin: 0;  
     font-size: 1.8rem;
+
 }
 
 #content{
@@ -94,12 +95,17 @@ div[data-content]{
     animation-delay: 2s;
     animation-direction: alternate;
     position: relative;
-    animation-iteration-count: 3;
+    transition-timing-function: ease-in-out;
 }
 
 .private-events-page{
     background-image: url("../images/private-events.jpg");
     background-size: cover;
+}
+
+.menu-page{
+    background-image: url("../images/menu.jpg");
+    background-size: cover; 
 }
 
 div[data-form-container]{
@@ -125,12 +131,13 @@ div[data-form]{
     align-content: space-around;
     align-items: center;
     justify-content: center;
+    flex-shrink: 1;
 }
 
 .form-private-events{
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     gap: 5px;
 }
 
@@ -138,12 +145,20 @@ div[data-form]{
     font-size: 1.2rem;
 }
 
+label[for="date"]{
+    align-self: flex-start;
+}
+
+#date {
+    width: 40%;
+}
+
 div[data-form-desc]{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 10px;
 }
 
@@ -152,6 +167,7 @@ div[data-form-desc]>p:first-child{
     font-size: 2rem;
     color: #84cc16;
     margin: 0;
+    flex-shrink: 1;
 }
 
 div[data-about]{
@@ -170,26 +186,19 @@ div[data-about]{
 }
 
 @keyframes background-image-change {
-    20%{
+    10%{
         background-image: url("../images/beverages.jpg");
     }
 
     40%{
-        background-image: url("../images/beverages.jpg");
+        background-image: url("../images/live-music.jpg");
     }
 
-    60%{
-        background-image: url("../images/food.jpg");
-    
-    }
-
-    80%{
+    70%{
         background-image: url("../images/food.jpg");
     }
-
     100%{
         background-image: url("../images/restaurant-interior.jpg");
-  
     }
     
 }
