@@ -5,5 +5,9 @@
         "days": "Mon-Sun",
         "hours": "3pm-11pm",
         "phone": "ph: (712) 000 - 000"
+    },
+    "private events":{
+        "inquiry": "Private Events Inquiry",
+        "eventDesc": "Contact us for more information about hosting your next event with us!"
     }
 }

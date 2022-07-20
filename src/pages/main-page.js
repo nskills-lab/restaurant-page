@@ -51,11 +51,17 @@ function createNavigation() {
 function createMainContent() {
   const dataContent = document.createElement("div");
   addAttribute(dataContent, "data-content");
+  dataContent.classList.add("main-page");
+  const dataAbout = createAboutDesc();
+  dataContent.appendChild(dataAbout);
+  return dataContent;
+}
+
+export function createAboutDesc() {
   const dataAbout = document.createElement("div");
   addAttribute(dataAbout, "data-about");
   dataAbout.innerText = MAIN_TEXT;
-  dataContent.appendChild(dataAbout);
-  return dataContent;
+  return dataAbout;
 }
 
 function createFooter() {
