@@ -39,8 +39,10 @@ function createNavigation() {
   addAttribute(nav, "data-nav");
   const menu = document.createElement("li");
   menu.innerText = "menu";
+  addAttribute(menu, "data-menu");
   const events = document.createElement("li");
   events.innerText = "private events";
+  addAttribute(events, "data-events");
   nav.appendChild(menu);
   nav.appendChild(events);
   return nav;

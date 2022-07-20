@@ -9,3 +9,10 @@ const [dataTop, dataContent, dataFooter] = [...loadMainPage()];
 content.appendChild(dataTop);
 content.appendChild(dataContent);
 content.appendChild(dataFooter);
+
+document.addEventListener("click", (e) => {
+  if (e.target.matches("li[data-menu]")) {
+  }
+  if (e.target.matches("li[data-events]")) {
+  }
+});
