@@ -1,4 +1,4 @@
-# Fictional restaurant pages project
+# Project: Restaurant Page
 
 ![Fictional restaurant pages project](./src/images/preview-image.png)
 
@@ -20,4 +20,4 @@ Based on [The Odin Project's](https://www.theodinproject.com/lessons/node-path-j
 
 - Menu background photo by <a href="https://unsplash.com/@sammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moghadam Khamseh</a> on <a href="https://unsplash.com/s/photos/food-menu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-- Live music background: photo by <a href="https://unsplash.com/@vbk_media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valentin B. Kremer</a> on <a href="https://unsplash.com/s/photos/restaurant-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Live music background photo by <a href="https://unsplash.com/@vbk_media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valentin B. Kremer</a> on <a href="https://unsplash.com/s/photos/restaurant-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
