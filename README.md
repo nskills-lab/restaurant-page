@@ -1,4 +1,4 @@
-# Fictional restaurant pages project
+# Project: Restaurant Page
 
 ![Fictional restaurant pages project](./src/images/preview-image.png)
 
