@@ -1,11 +1,10 @@
 # Fictional restaurant pages project
 
-![Fictional restaurant pages project](./src/images/food.png)
+![Fictional restaurant pages project](./src/images/preview-image.png)
 
 Based on [The Odin Project's](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) assignment.
 
 [Check out this live preview](https://nskills-lab.github.io/restaurant-page/)
-
 
 ## Acknowledgements
 
