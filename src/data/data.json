@@ -9,5 +9,90 @@
     "private events":{
         "inquiry": "Private Events Inquiry",
         "eventDesc": "Contact us for more information about hosting your next event with us!"
-    }
+    },
+    "menu": {
+        "appetizer":[
+            {
+                "name": "bacon cayenne brittle",
+                "price": "$10"
+            },
+            {
+                "name": "cajun chicken salad",
+                "price": "$12"
+            },
+            {
+                "name": "fried brussel sprouts",
+                "price": "$11"
+            },
+            {
+                "name": "applewood smoked wings",
+                "price": "$12"
+            },
+            {
+                "name": "chicken caesar salad",
+                "price": "$11"
+            },
+            {
+                "name": "lamb meatballs",
+                "price": "$10"
+            },
+            {
+                "name": "fried calamari",
+                "price": "$10"
+            }
+
+        ],
+        "entrees":[
+           {
+                "name": "ribs (1/2 slab)",
+                "price": "$25"
+            },
+           {
+                "name": "memphis burger",
+                "price": "$15"
+            },
+           {
+                "name": "shrimp and grits",
+                "price": "$23"
+            },           
+            {
+                "name": "cajun burger",
+                "price": "$24"
+            },
+           {
+                "name": "pasta bolognese",
+                "price": "$15"
+            },
+           {
+                "name": "lamb chops",
+                "price": "$25"
+            }
+    ],
+        "beverages":[
+        {
+            "name": "old fashioned",
+            "price": "$14"
+        },
+        {
+            "name": "margarita",
+            "price": "$13"
+        },
+       {
+            "name": "proseco",
+            "price": "$12"
+        },
+       {
+            "name": "pinot noir",
+            "price": "$11"
+        },
+        {
+            "name": "dovetail helles lager",
+            "price": "$8"
+        },
+       {
+            "name": "maplewood charlatan ipa",
+            "price": "$8"
+        }
+    ]
+}
 }
