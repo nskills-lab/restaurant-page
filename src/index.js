@@ -19,6 +19,7 @@ const events = document.querySelector("[data-events]");
 const menu = document.querySelector("li[data-menu]");
 
 document.addEventListener("click", (e) => {
+  // Menu section
   if (e.target.matches("li[data-menu]")) {
     if (dataContent.className == "menu-page") return;
     if (menu.className == "selected") return;
@@ -29,6 +30,7 @@ document.addEventListener("click", (e) => {
     loadMenuPage();
   }
 
+  // Private events section
   if (e.target.matches("li[data-events]")) {
     if (dataContent.className == "private-events-page") return;
     if (events.className == "selected") return;
@@ -39,6 +41,7 @@ document.addEventListener("click", (e) => {
     loadEventsPage();
   }
 
+  // Main page reset
   if (e.target.matches("div[data-title] p")) {
     if (dataContent.className == "main-page") return;
     resetMainPage();
@@ -46,6 +49,7 @@ document.addEventListener("click", (e) => {
 });
 
 document.addEventListener("submit", (e) => {
+  // Form submission response
   if (e.target.matches(".form-private-events")) {
     e.preventDefault();
     const formContainer = dataContent.firstElementChild;
