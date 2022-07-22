@@ -104,7 +104,6 @@ div[data-content]{
     animation-name: background-image-change;
     animation-duration: 10s;
     animation-iteration-count: 3;
-    animation-delay: 2s;
     animation-direction: alternate;
     position: relative;
     transition-timing-function: ease-in-out;
