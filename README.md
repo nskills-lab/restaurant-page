@@ -2,6 +2,8 @@
 
 ![Fictional restaurant pages project](./src/images/preview-image.png)
 
+![Fictional restaurant pages project](./src/images/private-events-preview.png)
+
 Based on [The Odin Project's](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) assignment.
 
 [Check out this live preview](https://nskills-lab.github.io/restaurant-page/)
@@ -19,5 +21,3 @@ Based on [The Odin Project's](https://www.theodinproject.com/lessons/node-path-j
 - Private events page backround photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/banquet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 - Menu background photo by <a href="https://unsplash.com/@sammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moghadam Khamseh</a> on <a href="https://unsplash.com/s/photos/food-menu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-- Live music background photo by <a href="https://unsplash.com/@vbk_media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valentin B. Kremer</a> on <a href="https://unsplash.com/s/photos/restaurant-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
