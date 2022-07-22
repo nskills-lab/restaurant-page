@@ -18,6 +18,15 @@ export function loadEventsPage() {
   dataFormContainer.appendChild(form);
 }
 
+export function generateResponse() {
+  const responseContainer = document.createElement("div");
+  addAttribute(responseContainer, "data-form-response");
+  const response = document.createElement("p");
+  response.innerText = "Thank you for your inquiry!";
+  responseContainer.appendChild(response);
+  return responseContainer;
+}
+
 function createFormDesc() {
   const dataFormDesc = document.createElement("div");
   addAttribute(dataFormDesc, "data-form-desc");

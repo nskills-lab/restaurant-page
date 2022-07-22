@@ -1,6 +1,9 @@
 import { loadMainPage, createAboutDesc } from "./pages/main-page.js";
 import { addAttribute } from "../src/utils/helpers.js";
-import { loadEventsPage } from "./pages/private-events-page.js";
+import {
+  loadEventsPage,
+  generateResponse,
+} from "./pages/private-events-page.js";
 import { loadMenuPage } from "./pages/menu-page.js";
 import "./styles/style.css";
 
@@ -25,6 +28,7 @@ document.addEventListener("click", (e) => {
     menu.className = "selected";
     loadMenuPage();
   }
+
   if (e.target.matches("li[data-events]")) {
     if (dataContent.className == "private-events-page") return;
     if (events.className == "selected") return;
@@ -34,9 +38,22 @@ document.addEventListener("click", (e) => {
     events.className = "selected";
     loadEventsPage();
   }
+
   if (e.target.matches("div[data-title] p")) {
     if (dataContent.className == "main-page") return;
     resetMainPage();
+  }
+});
+
+document.addEventListener("submit", (e) => {
+  if (e.target.matches(".form-private-events")) {
+    e.preventDefault();
+    const formContainer = dataContent.firstElementChild;
+    if (dataContent.hasChildNodes()) {
+      const children = formContainer.childNodes;
+      [...children].forEach((child) => formContainer.removeChild(child));
+    }
+    formContainer.appendChild(generateResponse());
   }
 });
 
