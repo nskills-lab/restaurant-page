@@ -4,7 +4,7 @@
 
 ![Fictional restaurant pages project](./src/images/private-events-preview.png)
 
-Based on [The Odin Project's](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) assignment.
+Based on Odin Project's assignment.
 
 [Check out this live preview](https://nskills-lab.github.io/restaurant-page/)
 
