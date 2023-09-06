@@ -4,7 +4,7 @@
 
 ![Fictional restaurant pages project](./src/images/private-events-preview.png)
 
-Based on Odin Project's assignment.
+Based on The Odin Project's assignment.
 
 [Check out this live preview](https://nskills-lab.github.io/restaurant-page/)
 
